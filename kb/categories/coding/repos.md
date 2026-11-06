@@ -1,0 +1,40 @@
+# קוד עם AI (Coding with AI) › ריפואים, ספריות ו-open source לפיתוח
+
+[← קוד עם AI (Coding with AI)](README.md) · [ראשי](../../README.md) · 24 פריטים
+
+## סינתזה
+
+ריפוזיטוריז שימושיים. ספריות בסיס: shadcn/ui [A0018](../../items/A0018.md) ו-Supabase [A0019](../../items/A0019.md). אריזת קוד כקונטקסט: Repomix [A0470](../../items/A0470.md) ו-uithub [A0054](../../items/A0054.md). **הנושא החם הוא הבנת codebase כגרף או מפה:** Understand Anything [A0710](../../items/A0710.md) [A0910](../../items/A0910.md) [A0911](../../items/A0911.md) [A0993](../../items/A0993.md), Graphify, שנפתח כ-vault של Obsidian [A0976](../../items/A0976.md), Cartographer [A1099](../../items/A1099.md), Archify [A1125](../../items/A1125.md), GitDiagram [A0205](../../items/A0205.md) ו-Code2Tutorial [A0369](../../items/A0369.md). כולם עונים על אותה שאלה: איך נותנים לסוכן ולאדם הבנה ארכיטקטונית בלי לשרוף טוקנים. עוד: screenshot-to-code [A1069](../../items/A1069.md), Web-Check ל-OSINT על אתרים [A1092](../../items/A1092.md), וריכוזי ריפואים לסוכנים [A0685](../../items/A0685.md) [A1080](../../items/A1080.md).
+
+**כלים בולטים בתת-הקטגוריה:** Claude Code (9), Codex (6), Cursor (4), Understand Anything (3), GitHub (3), Vercel (2), GitHub Copilot (2), Gemini CLI (2), GitDiagram (2), Archify (1), Claude (1), Cartographer (1)
+
+## פריטים
+
+| ID | כותרת | מחבר | תאריך | תקציר |
+|---|---|---|---|---|
+| [A1125](../../items/A1125.md) | Archify: מתיאור או מריפו לדיאגרמת ארכיטקטורה אינטראקטיבית ב-HTML, מאומתת מול הקבצים האמיתיים | SkipCI | 2026-09-30 | דיאגרמות מתיישנות ברגע שהקוד משתנה. Archify מייצר קובץ HTML אינטראקטיבי אחד, ולפני ההצגה בודק כל קופסה מול הקבצים בפועל. לחיצה על צומת מראה את כל… |
+| [A1123](../../items/A1123.md) 🔸 | skill ל-reverse engineering של אפליקציות Android, iOS ו-Windows (38 אלף כוכבים) | Mahan jafari | 2026-09-29 | לפי הריל, ה-skill מאפשר להנדס לאחור אפליקציות Android ו-iOS ותוכנות Windows. |
+| [A1099](../../items/A1099.md) | Cartographer: subagents מקבילים ממפים codebase למסמך ארכיטקטורה מקומי וחי שהסוכן יכול לקרוא | Github repo | 2026-09-17 | במקום שה-LLM ינחש את דרכו בקבצים, Cartographer מריץ subagents שמנתחים את הקוד במקביל, ומאחד את הממצאים למסמך ארכיטקטורה ברור: תלויות וזרימות נתונים.… |
+| [A1092](../../items/A1092.md) | Web-Check: כלי OSINT פתוח שמציג הכל על אתר (IP, DNS, SSL, headers, stack, מיקום שרת וצילומי מסך) | Fortcast | 2026-09-09 | דשבורד אחד עם כל המידע על אתר. 34 אלף כוכבים, ברישיון MIT. self-host ב-Docker, או פריסה ל-Vercel או Netlify. |
+| [A1080](../../items/A1080.md) | ארבעה ריפואים לסוכנים: Graft, OpenMontage, Codebase Memory MCP ו-Agency Agents (232 סוכני משנה) | Valeri Sabev | 2026-09-01 | 1. Graft: לפי הריל, Claude Code זול פי 4 בערך ומהיר פי 3. 2. OpenMontage: סוכן קוד שמצלם, עורך ומייצא וידאו. 3. Codebase Memory MCP: הריפו כגרף ידע… |
+| [A1069](../../items/A1069.md) | screenshot-to-code: מצילום מסך לקוד נקי (HTML/Tailwind/React/Vue), 75 אלף כוכבים | Syndi Ortega | 2026-08-29 | מעלים צילום מסך ומקבלים קוד ב-HTML/Tailwind, React או Vue. כתוב ב-Python. github.com/abi/screenshot-to-code. |
+| [A0993](../../items/A0993.md) | Understand Anything (שיתוף של עוקב): מפת ידע לקוד זר, סיור ארכיטקטוני מודרך ותשובות עם מיקומים | רני אלבג ויין | 2026-07-23 | ‏/understand סורק ובונה גרף, ואחריו יש דשבורד חיפוש וסיור ארכיטקטוני מודרך. על שאלה על הקוד הוא עונה עם המקומות המדויקים, "כמו עובד ותיק". 75 אלף… |
+| [A0976](../../items/A0976.md) | Graphify: מפרויקט שלם לגרף ידע מקומי (קוד, מסמכים, PDF, מדיה) שנפתח כ-vault של Obsidian | רני אלבג ויין | 2026-07-18 | 90 אלף כוכבים בשלושה חודשים וחצי. פקודה אחת ממפה מי קורא למי ומה תלוי במה, בקוד, בתיעוד, ב-PDF, בתמונות ובסרטונים. הכל רץ מקומית, בלי LLM ובלי API,… |
+| [A0968](../../items/A0968.md) | skill בשם "beautify GitHub README": קורא את הריפו ומייצר עמוד פרויקט עם כותרת SVG ייחודית | Evgenii Arsentev | 2026-07-17 | ה-skill קורא את הקוד, מבין מה הפרויקט עושה, ובונה ויזואל עם כותרת SVG. העיצוב, הטיפוגרפיה והצבעים נגזרים מהפרויקט עצמו, לא מתבנית. מותקן בפקודה אחת… |
+| [A0910](../../items/A0910.md) | Understand Anything: ‎/understand בונה גרף ידע, ‎/understand-dashboard מציג אותו, לקוד ולמסמכים | James Goldbach | 2026-06-11 | מתקינים את ה-plugin marketplace. ‎/understand יוצר את גרף הידע הראשוני, שכל שאר הפקודות נשענות עליו. ‎/understand-dashboard פותח תצוגה אינטראקטיבית.… |
+| [A0911](../../items/A0911.md) | Understand-Anything: כל קוד בסיס או wiki הופך לגרף ידע אינטראקטיבי (87k כוכבים) | Egonex-AI | 2026-06-11 | plugin (MIT, כ-87k כוכבים) שבו pipeline של סוכנים סורק את הפרויקט (קבצים, פונקציות, מחלקות ותלויות) ובונה גרף ידע ב-.ua/knowledge-graph.json. יש… |
+| [A0812](../../items/A0812.md) | cursor/plugins: מפרט ה-plugins של Cursor ותוספים רשמיים (כולל orchestrate) | Cursor | 2026-05-07 | ריפו רשמי (יותר מ-12k כוכבים): כל plugin הוא תיקייה עם `.cursor-plugin/plugin.json`, ובה skills (SKILL.md עם frontmatter), rules (.mdc) ו-mcp.json.… |
+| [A0710](../../items/A0710.md) | Understand Anything: plugin חינמי ל-Claude Code שהופך codebase לגרף ידע אינטראקטיבי | Hasan Toor | 2026-04-01 | פקודה אחת מפעילה חמישה סוכנים במקביל, שסורקים כל קובץ, פונקציה, מחלקה ותלות. נבנית מפה ויזואלית בדפדפן, צבועה לפי שכבה ארכיטקטונית, עם חיפוש וקליקים.… |
+| [A0685](../../items/A0685.md) | 6 ריפוזיטוריז לסוכנים בבדיקה: Paperclip, agency-agents, Workspace CLI, AirLLM, last30days, NemoClaw | Leon Melamud | 2026-03-18 | שש המלצות: (1) Paperclip, "חברה וירטואלית" של סוכנים עם תרשים ארגוני ויעדים. (2) agency-agents, יותר מ-120 פרסונות מובנות (ארכיטקט Backend, UX) נגד… |
+| [A0570](../../items/A0570.md) | שלושה ריפואים ל-Claude Code: GSD, n8n-MCP ו-Awesome Claude Skills | Chase AI | 2026-01-21 | 1. **GSD:** מסגרת לפרויקטים חדשים ומורכבים ([A0560](../../items/A0560.md)). 2. **n8n-MCP:** הופך את Claude Code למומחה n8n, עם תיעוד של הצמתים… |
+| [A0547](../../items/A0547.md) | Google Code Wiki: ריפו GitHub לדאשבורד אינטראקטיבי עם דיאגרמות ווידאו | Amichai Sheqel | 2025-12-20 | מדביקים לינק ל-repository, ו-Code Wiki (גוגל, חינם) מייצר דאשבורד: דיאגרמות מבנה ולוגיקה, הסברים, סרטוני הסבר קצרים (בסגנון NotebookLM), וצ'אט עם… |
+| [A0510](../../items/A0510.md) | RepoSwarm: הקשר ארכיטקטוני לסוכני AI על פני מאות ריפוזיטוריז | Roy Osherove (robotpaper.ai) | 2025-09-20 | פלטפורמה פתוחה (Apache-2): סורקת כל יום את כל ריפו ה-GitHub בארגון, מנתחת עם Claude Code SDK, ומייצרת תיעוד ארכיטקטורה סטנדרטי (markdown) בריפו… |
+| [A0470](../../items/A0470.md) | Repomix: לארוז codebase לפורמט ידידותי ל-AI | Repomix (yamadashy) | 2025-08-09 | אורז ריפו מקומי או מרוחק לקובץ אחד בפורמט XML, Markdown, JSON או Plain, כדי להדביק ב-Claude, ChatGPT או Gemini. glob include/ignore, compress code,… |
+| [A0369](../../items/A0369.md) | Code2Tutorial: ריפו ציבורי ב-GitHub הופך למדריך בפרקים עם דיאגרמות | Techinsixty (קרדיט: rammcodes) | 2025-07-14 | ב-code2tutorial.com מדביקים קישור לריפו. הכלי סורק את הקוד, מזהה את הלוגיקה המרכזית, בונה דיאגרמות של הארכיטקטורה והזרימה, ומפרק הכל למדריך בפרקים.… |
+| [A0370](../../items/A0370.md) | GitDiagram: מחליפים "hub" ב-"diagram" ב-URL של ריפו | Techinsixty | 2025-07-14 | מחליפים "hub" ב-"diagram" בכתובת של ריפו ב-GitHub, ומקבלים מיד דיאגרמה של בסיס הקוד. |
+| [A0205](../../items/A0205.md) | GitDiagram: הופכים ריפו ב-GitHub לדיאגרמת ארכיטקטורה אינטראקטיבית, בחינם | Artificial Intelligence & Machine Learning (@dataspoof) | 2025-04-10 | ב-gitdiagram.com מחליפים ב-URL של ריפו את "hub" ב-"diagram" ומקבלים דיאגרמת מערכת אינטראקטיבית של בסיס הקוד. הכלי חינמי וקוד פתוח. |
+| [A0173](../../items/A0173.md) | ספירת חזרות במשקולות עם pose detection בדפדפן (TensorFlow.js) | Wes Bos | 2025-03-21 | אפליקציה קטנה: מודל pose detection רץ בדפדפן, מסמן נקודות על הגוף, והקוד מחשב אם בוצעה חזרה במשקולת. |
+| [A0018](../../items/A0018.md) | shadcn/ui: ספריית קומפוננטות React להעתקה | shadcn | 2024-11-20 | ספריית קומפוננטות UI (React + Tailwind) שמעתיקים לפרויקט. הסטנדרט שכלי vibe coding (v0, Lovable, Bolt) משתמשים בו. |
+| [A0019](../../items/A0019.md) | Supabase: פלטפורמת Postgres ל-backend | Supabase | 2024-11-20 | Backend-as-a-Service על Postgres: DB, Auth, APIs אוטומטיים, Realtime, Edge Functions, Storage ו-vector embeddings. ה-backend הנפוץ ב-vibe coding. |
+
+⚠️ = תוכן חלקי (וידאו לא תומלל או מקור חסום) · 🔸 = מעט תוכן
